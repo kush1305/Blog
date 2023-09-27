@@ -1,0 +1,16 @@
+<%- include("partials/header"); %>
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/styles.css"> -->
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <div class="form-group" name="post">
+        <label >Title</label>
+        <input type="text" class="form-control" name="postTitle">
+      
+        <label>Post</label>
+        <textarea class="form-control"  rows="5" name="postBody"></textarea>
+    </div>
+    <!-- <input type="text" name="comp"> -->
+    <button type="submit" class="btn btn-primary">Publish</button>
+</form>
+<%- include("partials/footer"); %>
